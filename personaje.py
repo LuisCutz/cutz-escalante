@@ -8,6 +8,6 @@ class Personaje:
     defensa: int
     nivel: int
 
-personaje = Personaje(nombre="Aragorn", vida=100, ataque=18, defensa=15, nivel=1)
+personaje = Personaje(nombre="Aragorn", vida=-100, ataque=18, defensa=15, nivel=1)
 
 print(f"Nombre: {personaje.nombre}, Vida: {personaje.vida}, Ataque: {personaje.ataque}, Defensa: {personaje.defensa}, Nivel: {personaje.nivel}")
